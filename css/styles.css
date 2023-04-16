@@ -144,9 +144,21 @@ body {
 }
 
 .hero {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
+  background-color: rgba(46, 47, 66, 0.7);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title {
   font-weight: 700;
@@ -286,6 +298,11 @@ body {
 .team-header-title {
   margin-bottom: 8px;
 }
+
+/* Customers section */
+
+
+
 /* Footer section */
 
 .logo-footer {
