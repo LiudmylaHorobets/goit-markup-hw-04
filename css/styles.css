@@ -67,6 +67,8 @@ body {
 }
 .page-header {
   border-bottom: 1px solid var(--cornflower-text-cl);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav {
@@ -374,6 +376,9 @@ body {
 
 /* Footer section */
 
+.footer-logo {
+  /* width: 264px; */
+}
 .logo-footer {
   color: var(--cloud-text-cl);
 }
@@ -391,8 +396,40 @@ body {
 
 .footer-text {
   color: var(--cloud-text-cl);
-  max-width: 264px;
+  width: 264px;
+  font-weight: 400;
 }
+.footer-social-media {
+  margin-left: 120px;
+}
+.footer-socials-title {
+  color: var(--white-text-cl);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: var(--primary-font);
+  margin-bottom: 16px;
+}
+
+.footer-socials-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-socials-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+  color: var(--cloud-text-cl);
+  background-color: var(--iris-text-cl);
+  border-radius: 50%;
+}
+.footer-socials-item-link:hover,
+.footer-socials-item-link:focus {
+  background-color: var(--green-text-cl);
+}
+
 /* Portfolio */
 .page-portfolio {
   padding-top: 96px;
@@ -435,4 +472,10 @@ body {
 }
 .portfolio-cards-item {
   width: calc((100% - (24px * 2)) / 3);
+}
+
+.portfolio-cards-item:hover,
+.portfolio-cards-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
