@@ -385,6 +385,7 @@ body {
 
 .footer-logo {
   max-width: 264px;
+  margin-right: 120px;
 }
 .logo-footer {
   color: var(--cloud-text-cl);
@@ -400,7 +401,6 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-text {
